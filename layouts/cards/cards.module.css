@@ -1,0 +1,41 @@
+
+.cardsContainer {
+    color: #457d9b;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.viewMore:hover {
+    color: #a8dadc;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 0 .5rem black;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    min-width: 15rem;
+    max-width: 20rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: linear-gradient(120deg, #1d3557, #f1faee);
+    color: white;
+}
