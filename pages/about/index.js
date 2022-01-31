@@ -10,6 +10,7 @@ export default function About() {
         <NavbarLayout>
             <Head>
                 <title>Quem somos</title>
+                <meta name="description" content="Veja esse time incrível que faz acontecer"/>
             </Head>
             <div className={styles.aboutContainer}>
                 <h1>Quem Somos</h1>
